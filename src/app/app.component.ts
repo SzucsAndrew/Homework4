@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ressults } from './result';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Homework4';
+  results = ressults;
+  currentIndex : number = -1;
+
+  constructor(){
+  }
 }
